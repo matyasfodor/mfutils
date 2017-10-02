@@ -1,0 +1,36 @@
+{
+  "name": "mfutils",
+  "version": "1.0.0",
+  "description": "A set of js functions that I find useful. Not necessarily functional, but more functional than lodash.",
+  "main": "index.js",
+  "typings": "js/index",
+  "scripts": {
+    "build": "babel --out-dir dist src",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matyasfodor/mfutils.git"
+  },
+  "keywords": [
+    "util",
+    "utility",
+    "functional",
+    "lodash",
+    "underscore",
+    "rambda"
+  ],
+  "author": "Matyas Fodor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matyasfodor/mfutils/issues"
+  },
+  "homepage": "https://github.com/matyasfodor/mfutils#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "eslint": "^4.8.0",
+    "eslint-config-google": "^0.9.1"
+  }
+}
